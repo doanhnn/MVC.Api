@@ -1,0 +1,720 @@
+﻿POST /api/cms/user/login HTTP/1.1
+Host: api-pilot.tnsplus.vn
+Content-Length: 63
+Sec-Ch-Ua: "Chromium";v="103", ".Not/A)Brand";v="99"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+Authorization: Bearer
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36
+Sec-Ch-Ua-Platform: "Windows"
+Origin: https://pilot.tnsplus.vn
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://pilot.tnsplus.vn/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Connection: close
+
+{"email":"admin","password":"7abd805546bf9f41e667cc1f8495ce75
+
+HTTP/1.1 200 OK
+Connection: close
+Date: Sat, 09 Jul 2022 07:43:30 GMT
+Content-Type: application/json
+Server: Kestrel
+Content-Length: 13107
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: https://pilot.tnsplus.vn
+X-Rate-Limit-Limit: 1s
+X-Rate-Limit-Remaining: 0
+X-Rate-Limit-Reset: 2022-07-09T07:43:31.1643635Z
+
+{
+  "meta": {
+    "error_code": 200,
+    "error_message": "ThÃ nh cÃ´ng!"
+  },
+  "data": {
+    "userId": 1,
+    "userMapId": 1,
+    "projectId": null,
+    "departmentId": null,
+    "positionId": null,
+    "companyId": 0,
+    "languageId": 1,
+    "websiteId": 0,
+    "logoWebsite": null,
+    "fullName": "Tntech",
+    "avata": "123-1_20220622142656480.png",
+    "userName": "admin",
+    "password": "1dd4157cbfce26245b30d99ff7a4ef59",
+    "address": "Táº§ng 21, TNR Tower, 54A Nguyá»
+n ChÃ­ Thanh, Äá»ng Äa, HÃ  Ná»i",
+    "phone": "(024) 7307 5566",
+    "email": "contact@tnteco.vn",
+    "type": 1,
+    "status": 1,
+    "roleMax": 1,
+    "roleLevel": 1,
+    "roleCode": "ADMIN",
+    "isRoleGroup": true,
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvbnRhY3RAdG50ZWNvLnZuIiwianRpIjoiZGJhNWFjMmUtMjgzNC00NGUyLTk0MGItOTIyZmVhNTdiZDlkIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiIxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IlRudGVjaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImNvbnRhY3RAdG50ZWNvLnZuIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbW9iaWxlcGhvbmUiOiIoMDI0KSA3MzA3IDU1NjYiLCJpZCI6IjEiLCJmdWxsbmFtZSI6IlRudGVjaCIsIlVzZXJJZCI6IjEiLCJVc2VyTWFwSWQiOiIxIiwiUm9sZU1heCI6IjEiLCJSb2xlTGV2ZWwiOiIxIiwiUm9sZUNvZGUiOiJBRE1JTiIsIkFjY2Vzc0tleSI6IkNBUlBBUktJTkdNQU5BR0VSOjEwMDAwMDAwMC1DSERWVlM6MTExMTExMTExLVFMREs6MTExMTExMTExLUNBU0hTRVJWSUNFVVRJTElUSUVTOjExMTExMTExMS1EVktUOjExMTExMTExMS1DQVJQQVJLSU5HOjEwMDAwMDAwMC1DQVNIOjExMTExMTExMS1SRUdJU1RFUl9SRVNJREVOVF9DQVJEOjExMTExMTExMS1EU1BEVjoxMTExMTExMTEtUUxORDoxMTExMTExMTEtRFNEQToxMTExMTExMTEtTEg6MTExMTExMTExLURTUEI6MTExMTExMTExLVlDSFQ6MTExMTExMTExLURTVEI6MTExMTExMTExLURTTFNUQjoxMDAwMDAwMDAtQkNZQ0hDOjExMTExMTExMS1UQlA6MTExMTExMTExLVFMQk1UQjoxMTExMTExMTEtUUxRRzoxMTExMTExMTEtRFNDVjoxMTExMTExMTEtRFNUTjoxMTExMTExMTEtTkRCUUw6MTExMTExMTExLURWQzoxMTExMTExMTEtUkVHSVNUUkFUSU9OX1RSQU5TUE9TVDoxMTExMTExMTEtRFNUQ0RHOjExMTExMTExMS1TRUFSQ0hGRUU6MTExMTExMTExLURWVlM6MTExMTExMTExLVVUSUxJVElFUzoxMTExMTExMTEtRFZDVE46MTExMTExMTExLUJDVFQ6MTExMTExMTExLVJFR0lTVFJBVElPTl9DT05TVFJVQ1RJT046MTExMTExMTExLU5EQ0Q6MTExMTExMTExLURTVDoxMTExMTExMTEtRE1EQToxMTExMTExMTEtRFNOVjoxMTExMTExMTEtUUxUVFA6MTExMTExMTExLVFMUUg6MTExMTExMTExLVFUVEI6MTExMTExMTExLURNU1RDRDoxMTExMTExMTEtRFNDSDoxMTExMTExMTEtUUxROjExMTExMTExMS1DT01NT046MTExMTExMTExLUNIVUREVlRCTjoxMTExMTExMTEtQ0hTTEE6MTExMTExMTExLUNIVFQ6MTAwMDAwMDAwLURNQlFMOjExMTExMTExMS1RTENOOjExMTExMTExMS1RTENEOjExMTExMTExMS1TVENEOjExMTExMTExMS1RTFBYOjExMTExMTExMS1QQVlNRU5UOjExMTExMTExMS1MSEJRTDoxMTExMTExMTEtWUNIVE1BTkFHRVI6MTExMTExMTExLVFMSFQ6MTExMTExMTExLUNIRFY6MTExMTExMTExLUJBTk5FUjoxMTExMTExMTEtQkNTTVM6MTExMTExMTExLURES1Q6MTAwMDAwMDAwLU5UQlRJREtUQzowMDAwMDAwMDAiLCJMYW5ndWFnZUlkIjoiMSIsIlByb2plY3RJZCI6IjAiLCJUeXBlIjoiMSIsIkRlcGFydG1lbnRJZCI6IiIsIlBvc2l0aW9uSWQiOiIiLCJleHAiOjE2NTk5NDQ2MTAsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzI1LyIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzI1LyJ9.NylTJ-NFBC9V_gXgKhrb3vZFHiBqpHkpQLC_EEif20I",
+    "access_key": "CARPARKINGMANAGER:100000000-CHDVVS:111111111-QLDK:111111111-CASHSERVICEUTILITIES:111111111-DVKT:111111111-CARPARKING:100000000-CASH:111111111-REGISTER_RESIDENT_CARD:111111111-DSPDV:111111111-QLND:111111111-DSDA:111111111-LH:111111111-DSPB:111111111-YCHT:111111111-DSTB:111111111-DSLSTB:100000000-BCYCHC:111111111-TBP:111111111-QLBMTB:111111111-QLQG:111111111-DSCV:111111111-DSTN:111111111-NDBQL:111111111-DVC:111111111-REGISTRATION_TRANSPOST:111111111-DSTCDG:111111111-SEARCHFEE:111111111-DVVS:111111111-UTILITIES:111111111-DVCTN:111111111-BCTT:111111111-REGISTRATION_CONSTRUCTION:111111111-NDCD:111111111-DST:111111111-DMDA:111111111-DSNV:111111111-QLTTP:111111111-QLQH:111111111-QTTB:111111111-DMSTCD:111111111-DSCH:111111111-QLQ:111111111-COMMON:111111111-CHUDDVTBN:111111111-CHSLA:111111111-CHTT:100000000-DMBQL:111111111-QLCN:111111111-QLCD:111111111-STCD:111111111-QLPX:111111111-PAYMENT:111111111-LHBQL:111111111-YCHTMANAGER:111111111-QLHT:111111111-CHDV:111111111-BANNER:111111111-BCSMS:111111111-DDKT:100000000-NTBTIDKTC:000000000",
+    "listMenus": [
+      {
+        "MenuId": 2186,
+        "Code": "DVC",
+        "Name": "Dá»ch vá»¥",
+        "MenuParent": 0,
+        "Url": "manager-service",
+        "Icon": "fa fa-cogs",
+        "ActiveKey": "111111111",
+        "Status": null,
+        "listMenus": [
+          {
+            "MenuId": 2187,
+            "Code": "DVKT",
+            "Name": "Dá»ch vá»¥ ká»¹ thuáº­t",
+            "MenuParent": 2186,
+            "Url": "service-tech",
+            "Icon": "",
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2188,
+            "Code": "DVVS",
+            "Name": "Dá»ch vá»¥ vá» sinh",
+            "MenuParent": 2186,
+            "Url": "cleaning-service",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2189,
+            "Code": "DVCTN",
+            "Name": "Dá»ch vá»¥ cho thuÃª nhÃ ",
+            "MenuParent": 2186,
+            "Url": "rental-apartment",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          }
+        ]
+      },
+      {
+        "MenuId": 2175,
+        "Code": "UTILITIES",
+        "Name": "Tiá»n Ã­ch",
+        "MenuParent": 0,
+        "Url": "utilities",
+        "Icon": "fa fa-shield",
+        "ActiveKey": "111111111",
+        "Status": null,
+        "listMenus": [
+          {
+            "MenuId": 2176,
+            "Code": "REGISTER_RESIDENT_CARD",
+            "Name": "Tháº» / cÆ° dÃ¢n vá» á»",
+            "MenuParent": 2175,
+            "Url": "resident-service",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2177,
+            "Code": "REGISTRATION_TRANSPOST",
+            "Name": "Chuyá»n hÃ ng hÃ³a vÃ o ra",
+            "MenuParent": 2175,
+            "Url": "transpost-request",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2178,
+            "Code": "REGISTRATION_CONSTRUCTION",
+            "Name": "ÄÄng kÃ½ thi cÃ´ng",
+            "MenuParent": 2175,
+            "Url": "registration-construction",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          }
+        ]
+      },
+      {
+        "MenuId": 2130,
+        "Code": "DMDA",
+        "Name": "Khu ÄÃ´ thá»",
+        "MenuParent": 0,
+        "Url": "project-category",
+        "Icon": "fa fa-building",
+        "ActiveKey": "111111111",
+        "Status": null,
+        "listMenus": [
+          {
+            "MenuId": 2131,
+            "Code": "DSDA",
+            "Name": "Danh sÃ¡ch khu ÄÃ´ thá»",
+            "MenuParent": 2130,
+            "Url": "projects",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2132,
+            "Code": "DSTN",
+            "Name": "Danh sÃ¡ch tÃ²a nhÃ ",
+            "MenuParent": 2130,
+            "Url": "towers",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2136,
+            "Code": "DST",
+            "Name": "Danh sÃ¡ch táº§ng",
+            "MenuParent": 2130,
+            "Url": "floors",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2133,
+            "Code": "DSCH",
+            "Name": "Danh sÃ¡ch cÄn há»",
+            "MenuParent": 2130,
+            "Url": "apartments",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2137,
+            "Code": "QLCD",
+            "Name": "Danh sÃ¡ch cÆ° dÃ¢n",
+            "MenuParent": 2130,
+            "Url": "residents",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          }
+        ]
+      },
+      {
+        "MenuId": 2151,
+        "Code": "QTTB",
+        "Name": "ThÃ´ng bÃ¡o",
+        "MenuParent": 0,
+        "Url": "notification-manager",
+        "Icon": "fa fa-bell",
+        "ActiveKey": "111111111",
+        "Status": null,
+        "listMenus": [
+          {
+            "MenuId": 2152,
+            "Code": "DSTB",
+            "Name": "Danh sÃ¡ch thÃ´ng bÃ¡o",
+            "MenuParent": 2151,
+            "Url": "notification",
+            "Icon": "",
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2162,
+            "Code": "TBP",
+            "Name": "ThÃ´ng bÃ¡o phÃ­",
+            "MenuParent": 2151,
+            "Url": "notification-fee",
+            "Icon": "",
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2153,
+            "Code": "QLBMTB",
+            "Name": "Danh sÃ¡ch biá»u máº«u thÃ´ng bÃ¡o",
+            "MenuParent": 2151,
+            "Url": "notification-temp",
+            "Icon": "",
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          }
+        ]
+      },
+      {
+        "MenuId": 2138,
+        "Code": "COMMON",
+        "Name": "Danh má»¥c dá»¯ liá»u chung",
+        "MenuParent": 0,
+        "Url": "common",
+        "Icon": "fa fa-hdd-o",
+        "ActiveKey": "111111111",
+        "Status": null,
+        "listMenus": [
+          {
+            "MenuId": 2139,
+            "Code": "LH",
+            "Name": "Loáº¡i hÃ¬nh",
+            "MenuParent": 2138,
+            "Url": "type-attribute",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2144,
+            "Code": "QLQG",
+            "Name": "Danh sÃ¡ch quá»c gia",
+            "MenuParent": 2138,
+            "Url": "countries",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2145,
+            "Code": "QLTTP",
+            "Name": "Danh sÃ¡ch tá»nh/thÃ nh phá»",
+            "MenuParent": 2138,
+            "Url": "provinces",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2146,
+            "Code": "QLQH",
+            "Name": "Danh sÃ¡ch quáº­n/huyá»n",
+            "MenuParent": 2138,
+            "Url": "districts",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2194,
+            "Code": "CHSLA",
+            "Name": "Cáº¥u hÃ¬nh SLA",
+            "MenuParent": 2138,
+            "Url": "sla-config",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2147,
+            "Code": "QLPX",
+            "Name": "Danh sÃ¡ch phÆ°á»ng/xÃ£",
+            "MenuParent": 2138,
+            "Url": "wards",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          }
+        ]
+      },
+      {
+        "MenuId": 2140,
+        "Code": "DMBQL",
+        "Name": "Ban quáº£n lÃ½",
+        "MenuParent": 0,
+        "Url": "manager-category",
+        "Icon": "fa fa-list-alt",
+        "ActiveKey": "111111111",
+        "Status": null,
+        "listMenus": [
+          {
+            "MenuId": 2199,
+            "Code": "QLDK",
+            "Name": "Quáº£n lÃ½ Äiá»u khoáº£n",
+            "MenuParent": 2140,
+            "Url": "registration-term",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2141,
+            "Code": "DSPB",
+            "Name": "Danh sÃ¡ch phÃ²ng ban",
+            "MenuParent": 2140,
+            "Url": "departments",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2142,
+            "Code": "DSCV",
+            "Name": "Danh sÃ¡ch chá»©c vá»¥",
+            "MenuParent": 2140,
+            "Url": "positions",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2190,
+            "Code": "DSTCDG",
+            "Name": "TiÃªu chÃ­ ÄÃ¡nh giÃ¡",
+            "MenuParent": 2140,
+            "Url": "config-rate",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2143,
+            "Code": "DSNV",
+            "Name": "Danh sÃ¡ch nhÃ¢n viÃªn",
+            "MenuParent": 2140,
+            "Url": "employees",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2157,
+            "Code": "DMSTCD",
+            "Name": "Danh má»¥c sá» tay cÆ° dÃ¢n",
+            "MenuParent": 2140,
+            "Url": "notebook-category",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2158,
+            "Code": "STCD",
+            "Name": "BÃ i viáº¿t sá» tay cÆ° dÃ¢n, báº£ng tin, tin tá»©c",
+            "MenuParent": 2140,
+            "Url": "notebook",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2148,
+            "Code": "LHBQL",
+            "Name": "Danh báº¡ khu ÄÃ´ thá»",
+            "MenuParent": 2140,
+            "Url": "contacts",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2171,
+            "Code": "BANNER",
+            "Name": "Quáº£n lÃ½ banner",
+            "MenuParent": 2140,
+            "Url": "banner",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          }
+        ]
+      },
+      {
+        "MenuId": 2163,
+        "Code": "PAYMENT",
+        "Name": "Thanh toÃ¡n",
+        "MenuParent": 0,
+        "Url": "payment",
+        "Icon": "fa fa-money",
+        "ActiveKey": "111111111",
+        "Status": null,
+        "listMenus": [
+          {
+            "MenuId": 2202,
+            "Code": "CASHSERVICEUTILITIES",
+            "Name": "HÃ³a ÄÆ¡n dá»ch vá»¥, tiá»n Ã­ch",
+            "MenuParent": 2163,
+            "Url": "order-service-utilities",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2164,
+            "Code": "CASH",
+            "Name": "HÃ³a ÄÆ¡n OneS",
+            "MenuParent": 2163,
+            "Url": "order",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2165,
+            "Code": "SEARCHFEE",
+            "Name": "Tra cá»©u phÃ­",
+            "MenuParent": 2163,
+            "Url": "search-fee",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2172,
+            "Code": "BCTT",
+            "Name": "BÃ¡o cÃ¡o thanh toÃ¡n",
+            "MenuParent": 2163,
+            "Url": "report-cash",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2173,
+            "Code": "BCSMS",
+            "Name": "BÃ¡o cÃ¡o sms",
+            "MenuParent": 2163,
+            "Url": "report-sms",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          }
+        ]
+      },
+      {
+        "MenuId": 2166,
+        "Code": "YCHTMANAGER",
+        "Name": "YÃªu cáº§u há» trá»£",
+        "MenuParent": 0,
+        "Url": "require-support-manager",
+        "Icon": "fa fa-support",
+        "ActiveKey": "111111111",
+        "Status": null,
+        "listMenus": [
+          {
+            "MenuId": 2150,
+            "Code": "YCHT",
+            "Name": "Danh sÃ¡ch yÃªu cáº§u",
+            "MenuParent": 2166,
+            "Url": "require-support",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2160,
+            "Code": "BCYCHC",
+            "Name": "BÃ¡o cÃ¡o yÃªu cáº§u há» trá»£",
+            "MenuParent": 2166,
+            "Url": "report-support",
+            "Icon": "",
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          }
+        ]
+      },
+      {
+        "MenuId": 1,
+        "Code": "QLHT",
+        "Name": "PhÃ¢n quyá»n",
+        "MenuParent": 0,
+        "Url": "system",
+        "Icon": "fa fa-cogs",
+        "ActiveKey": "111111111",
+        "Status": null,
+        "listMenus": [
+          {
+            "MenuId": 4,
+            "Code": "QLND",
+            "Name": "Táº¥t cáº£ ngÆ°á»i dÃ¹ng",
+            "MenuParent": 1,
+            "Url": "user",
+            "Icon": "",
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2134,
+            "Code": "NDBQL",
+            "Name": "NgÆ°á»i dÃ¹ng BQL",
+            "MenuParent": 1,
+            "Url": "user-management",
+            "Icon": "",
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2135,
+            "Code": "NDCD",
+            "Name": "NgÆ°á»i dÃ¹ng cÆ° dÃ¢n",
+            "MenuParent": 1,
+            "Url": "user-resident",
+            "Icon": "",
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 3,
+            "Code": "QLQ",
+            "Name": "NhÃ³m quyá»n",
+            "MenuParent": 1,
+            "Url": "role",
+            "Icon": "",
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2,
+            "Code": "QLCN",
+            "Name": "Quáº£n lÃ½ chá»©c nÄng",
+            "MenuParent": 1,
+            "Url": "function",
+            "Icon": "",
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          }
+        ]
+      },
+      {
+        "MenuId": 2198,
+        "Code": "CHDV",
+        "Name": "Cáº¥u hÃ¬nh dá»ch vá»¥",
+        "MenuParent": 0,
+        "Url": "config-category-service",
+        "Icon": "fa fa-cogs",
+        "ActiveKey": "111111111",
+        "Status": null,
+        "listMenus": [
+          {
+            "MenuId": 2197,
+            "Code": "CHDVVS",
+            "Name": "Cáº¥u hÃ¬nh dá»ch vá»¥ vá» sinh",
+            "MenuParent": 2198,
+            "Url": "config-cleaning-category",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2185,
+            "Code": "DSPDV",
+            "Name": "Dá»ch vá»¥ ká»¹ thuáº­t",
+            "MenuParent": 2198,
+            "Url": "service-category",
+            "Icon": "",
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          },
+          {
+            "MenuId": 2196,
+            "Code": "CHUDDVTBN",
+            "Name": "Dá»ch vá»¥ cho thuÃª nhÃ ",
+            "MenuParent": 2198,
+            "Url": "rental-config",
+            "Icon": null,
+            "ActiveKey": "111111111",
+            "Status": null,
+            "listMenus": []
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": null
+}
+
+GET /api/register HTTP/2
+Host: localhost:44335
+Sec-Ch-Ua: "Chromium";v="103", ".Not/A)Brand";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Upgrade-Insecure-Requests: 1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvbnRhY3RAdG50ZWNvLnZuIiwianRpIjoiZGJhNWFjMmUtMjgzNC00NGUyLTk0MGItOTIyZmVhNTdiZDlkIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiIxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IlRudGVjaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImNvbnRhY3RAdG50ZWNvLnZuIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbW9iaWxlcGhvbmUiOiIoMDI0KSA3MzA3IDU1NjYiLCJpZCI6IjEiLCJmdWxsbmFtZSI6IlRudGVjaCIsIlVzZXJJZCI6IjEiLCJVc2VyTWFwSWQiOiIxIiwiUm9sZU1heCI6IjEiLCJSb2xlTGV2ZWwiOiIxIiwiUm9sZUNvZGUiOiJBRE1JTiIsIkFjY2Vzc0tleSI6IkNBUlBBUktJTkdNQU5BR0VSOjEwMDAwMDAwMC1DSERWVlM6MTExMTExMTExLVFMREs6MTExMTExMTExLUNBU0hTRVJWSUNFVVRJTElUSUVTOjExMTExMTExMS1EVktUOjExMTExMTExMS1DQVJQQVJLSU5HOjEwMDAwMDAwMC1DQVNIOjExMTExMTExMS1SRUdJU1RFUl9SRVNJREVOVF9DQVJEOjExMTExMTExMS1EU1BEVjoxMTExMTExMTEtUUxORDoxMTExMTExMTEtRFNEQToxMTExMTExMTEtTEg6MTExMTExMTExLURTUEI6MTExMTExMTExLVlDSFQ6MTExMTExMTExLURTVEI6MTExMTExMTExLURTTFNUQjoxMDAwMDAwMDAtQkNZQ0hDOjExMTExMTExMS1UQlA6MTExMTExMTExLVFMQk1UQjoxMTExMTExMTEtUUxRRzoxMTExMTExMTEtRFNDVjoxMTExMTExMTEtRFNUTjoxMTExMTExMTEtTkRCUUw6MTExMTExMTExLURWQzoxMTExMTExMTEtUkVHSVNUUkFUSU9OX1RSQU5TUE9TVDoxMTExMTExMTEtRFNUQ0RHOjExMTExMTExMS1TRUFSQ0hGRUU6MTExMTExMTExLURWVlM6MTExMTExMTExLVVUSUxJVElFUzoxMTExMTExMTEtRFZDVE46MTExMTExMTExLUJDVFQ6MTExMTExMTExLVJFR0lTVFJBVElPTl9DT05TVFJVQ1RJT046MTExMTExMTExLU5EQ0Q6MTExMTExMTExLURTVDoxMTExMTExMTEtRE1EQToxMTExMTExMTEtRFNOVjoxMTExMTExMTEtUUxUVFA6MTExMTExMTExLVFMUUg6MTExMTExMTExLVFUVEI6MTExMTExMTExLURNU1RDRDoxMTExMTExMTEtRFNDSDoxMTExMTExMTEtUUxROjExMTExMTExMS1DT01NT046MTExMTExMTExLUNIVUREVlRCTjoxMTExMTExMTEtQ0hTTEE6MTExMTExMTExLUNIVFQ6MTAwMDAwMDAwLURNQlFMOjExMTExMTExMS1RTENOOjExMTExMTExMS1RTENEOjExMTExMTExMS1TVENEOjExMTExMTExMS1RTFBYOjExMTExMTExMS1QQVlNRU5UOjExMTExMTExMS1MSEJRTDoxMTExMTExMTEtWUNIVE1BTkFHRVI6MTExMTExMTExLVFMSFQ6MTExMTExMTExLUNIRFY6MTExMTExMTExLUJBTk5FUjoxMTExMTExMTEtQkNTTVM6MTExMTExMTExLURES1Q6MTAwMDAwMDAwLU5UQlRJREtUQzowMDAwMDAwMDAiLCJMYW5ndWFnZUlkIjoiMSIsIlByb2plY3RJZCI6IjAiLCJUeXBlIjoiMSIsIkRlcGFydG1lbnRJZCI6IiIsIlBvc2l0aW9uSWQiOiIiLCJleHAiOjE2NTk5NDQ2MTAsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzI1LyIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzI1LyJ9.NylTJ-NFBC9V_gXgKhrb3vZFHiBqpHkpQLC_EEif20I
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+------------------------------------------------------------------
+POST /api/login HTTP/2
+Host: localhost:44335
+Sec-Ch-Ua: "Chromium";v="103", ".Not/A)Brand";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Content-Length: 0
+
+HTTP/2 200 OK
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+Set-Cookie: .AspNetCore.Cookies=CfDJ8OWUDEy7yHtAo2G3WAlVwrlUR0L4lBpbqZc-gKscvAMGIGi3YHsPu8Z0e_Ne9k3fc-YkDGvfk490PF6wOA1lKgybvBpbe02UbT71gNMGIjHwIiy76DwOVAXX6048v69SI2K73018tXQoHE1TB5g4mvLNQELs5C3ZMlEl31WRyZrXxQf2f9icw065IVyroeyLFBAW5pRMgjuJVCbrEXpoTfnNxmXPknfC2RqBsRW1cPmNkBKa-XfRcfHpxWoPCB2PbYi5FnpAuil_cbjXIznItdzP4Hiv8BQPIL2nE2xh_Tb1f1vConaTQke1oKg0cn4_7j5uzGu-xBLJeQGwskb1xMCXx1E2iJsW6A5J0_SyZAgkR2z7Xot4zWP0jOGW4xr3tLiXWZ9dwmUMsQusEgKuPR_qw-8CFlSgUQU_XZeiivlUl7COXFkTD-U9HL7sIrPPY1YBA0r5PZgw1axfkhFHJ7kUCqE7l5tP9UeSxW0RGvY6lyDPlvWercKc4H6LYYgfpA; expires=Sat, 09 Jul 2022 08:41:57 GMT; path=/; secure; samesite=lax; httponly
+Set-Cookie: .AspNetCore.Antiforgery.G-pwIooZ2YU=CfDJ8OWUDEy7yHtAo2G3WAlVwrljLU1uIaT7obvDUHToYAR31hcSO9f2Jrqx3roHRJvrxDb39eJNmw7THT8FCQTcAlPigXhc1g1u7OobOKEOEKP4zaFaTRM0RtumZGgMSjiYDzW85QBRFUp_f5XHutCoEHI; path=/; samesite=strict; httponly
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+Date: Sat, 09 Jul 2022 08:31:58 GMT
