@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
@@ -30,6 +30,8 @@ namespace MVC.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            //services.AddSession();                      // Thêm  dịch vụ Session, dịch vụ này cunng cấp Middleware: 
+
             /*
             string domain = "https://localhost:44325/"; //Configuration["AppSettings:JwtIssuer"];
             var authenticationProviderKey = "TestKey";
@@ -85,7 +87,7 @@ namespace MVC.API
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            //app.UseSession();
             app.UseRouting();
             app.UseAuthentication();
             app.UseCookiePolicy(cookiePolicyOptions);
